@@ -8,9 +8,18 @@ namespace itertools
         int a, b;
         
         public:
-            range(int a,int b);
-            int* begin();
-            int* end();
+            range(int a,int b): a(0), b(0)
+            {
+                
+            }
+            int* begin()
+            {
+                return nullptr;
+            }
+            int* end()
+            {
+                return nullptr;
+            }
     };
     
 }

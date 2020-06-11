@@ -5,7 +5,7 @@ namespace itertools
 
     int* accumulate::begin()
     {
-        return nullptr
+        return nullptr;
     }
     int* accumulate::end()
     {

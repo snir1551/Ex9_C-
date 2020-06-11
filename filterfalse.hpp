@@ -2,16 +2,21 @@
 #define _FILTERFALSE_HPP
 
 namespace itertools
-{
+{ 
     class filterfalse
     {
         public:
             template<typename T,typename Collection>
             filterfalse(T t,Collection collection);
-            // template<class T, typename Collection>
-            // filterfalse(T t,Collection vec);
-            int* begin();
-            int* end();
+
+            int* begin()
+            {
+                return nullptr;
+            }
+            int* end()
+            {
+                return nullptr;
+            }
 
     };
     template<typename T,typename Collection>
@@ -19,10 +24,6 @@ namespace itertools
     {
 
     }
-//    template<class T, typename Collection>
-//     filterfalse::filterfalse(T t,Collection vec)
-//     {
 
-//     }
 }
 #endif

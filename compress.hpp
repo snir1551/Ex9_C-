@@ -8,8 +8,14 @@ namespace itertools
         public:
             template<typename Collection,typename BooleanCollection>
             compress(Collection collection,BooleanCollection booleanCollection);
-            int* begin();
-            int* end();
+            int* begin()
+            {
+                return nullptr;
+            }
+            int* end()
+            {
+                return nullptr;
+            }
 
     };
 

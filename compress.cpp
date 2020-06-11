@@ -4,7 +4,7 @@ namespace itertools
 {
     int* compress::begin()
     {
-        return nullptr
+        return nullptr;
     }
     int* compress::end()
     {

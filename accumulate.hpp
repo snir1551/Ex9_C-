@@ -15,8 +15,14 @@ namespace itertools
 
             template<typename Collection>
             accumulate(Collection collection);
-            int* begin();
-            int* end();
+            int* begin()
+            {
+                return nullptr;
+            }
+            int* end()
+            {
+                return nullptr;
+            }
     };
 
     template<typename Collection,class Func>
